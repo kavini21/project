@@ -1,0 +1,67 @@
+.
+{
+    margin: 0;
+    font-family: sans-serif, syne;
+    box-sizing: border-box;
+}
+.header
+{
+    display:flex;
+    padding: 30px 10px;
+    width: 100%;
+    background: #000;
+    
+    justify-content: space-between;
+}
+.header .navbar
+{
+ display: flex;
+}
+.header .navbar .logo img
+{
+    cursor: pointer;
+}
+.header .navbar .nawlink
+{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.header .navbar .nawlink ul
+{
+    display: flex;
+    gap: 40px;
+}
+.header .navbar .nawlink ul li
+{
+    list-style: none;
+}
+.header .navbar .nawlink ul li a
+{
+    font-weight: bold;
+    color: #ffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.header .navbar .nawlink ul li a:hover
+{
+    color: #107283;
+}
+.header .btn button
+{
+    background: #107283;
+    color: #fffefe;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 2px 0px #ffff;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+  
+}
+.header .btn button:hover
+{
+    background: #107283;
+    box-shadow: none;
+}
