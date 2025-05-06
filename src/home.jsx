@@ -23,29 +23,44 @@ const Home =() =>{
 
 
                 </motion.div>
-                <div className='user'>
+                <motion.div 
+                variants= {FadeIn("up",0.2)}
+                initial ="hidden"
+                whileInView= {"show"}
+                viewport={{once: false, amount: 0.7}}
+                 className='user'>
                     <div className='userimg_box'>
                         <img src='img/p.png' width={50}/>
-                        <img src='img/pppp.jpg'width={50} />
+                        <img src='img/pppp.jpg'width={50} height={51} />
                         <img src='img/pp.jpg' width={50} />
-                        
                         
 
                     </div>
                    <p>Believed by more then a thousand people</p>
-                </div>
-                   <div className='button'>
+                </motion.div>
+                   <motion.div 
+                   variants= {FadeIn("left",0.2)}
+                   initial ="hidden"
+                   whileInView= {"show"}
+                   viewport={{once: false, amount: 0.7}}
+                   className='button'>
                          <a href="#">Book a free consluation</a>
                          <div className='icon'>
                          <IoIosCall/>
 
                          </div>
+                   </motion.div>
                    </div>
-            </div>
-            <div className='img_box'>
+            <motion.div 
+                variants= {FadeIn("left",0.2)}
+                initial ="hidden"
+                whileInView= {"show"}
+                viewport={{once: false, amount: 0.7}}
+            
+                className='img_box'>
                 <img src="img/p6.jpg" />
 
-            </div>
+                </motion.div>
 
             </div>
 

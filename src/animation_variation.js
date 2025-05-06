@@ -1,5 +1,5 @@
 import { transform } from "typescript"
-export const FadaIn = (direction, delay) =>
+export const FadeIn = (direction, delay) =>
 {
     return{
         hidden:{
