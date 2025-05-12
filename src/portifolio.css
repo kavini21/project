@@ -1,3 +1,91 @@
-.Swiper{
-    
+.Swiper
+{
+    width: 100%;
+    height: 100%;
+
+}
+.Swiper .slide
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+.portifolio
+{
+ padding: 50px 10px;
+ background: #733a04;
+}
+.portifolio .container
+{
+    margin-top: 20px;
+}
+.portifolio .container .title
+{
+    padding: 60px 80px;
+    text-align: center;
+}
+.portifolio .container .title h2
+{
+font-size: 70px;
+line-height: 75px;
+color: aliceblue;
+font-family: syne;
+}
+.portifolio .container .img_slider
+{
+    display: flex;
+}
+.portifolio .container .img_slider .slide_box
+{
+height: 450px;
+width: 600px;
+border-radius: 16px;
+border: 3px solid #fff;
+overflow: hidden;
+}
+.portifolio .container .img_slider .slide_box .img_box img
+{
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.portifolio .container .img_slider .slide_box:hover .img_box img
+{
+    transform: scale(1.1);
+}
+.portifolio .container .img_slider .slide_box .details
+{
+    position: absolute;
+    z-index: 1;
+    height: 450px;
+    width: 600px;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 16px;
+    position: 20px 30px;
+    transition: 0.3s;
+}
+.portifolio .container .img_slider .slide_box .details
+{
+    backdrop-filter: blur(2px);
+}
+.portifolio .container .img_slider .slide_box .details h3
+{
+    margin-top: 50%;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: syne;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.portifolio .container .img_slider .slide_box .details p
+{
+    margin-top: 40px;
+    margin-right: 10%;
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }

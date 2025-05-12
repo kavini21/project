@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/scrollbar';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import './portifolio.css'
+import './portifolio.css';
 import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
 
 const portifolio = () => {
@@ -38,7 +38,46 @@ const portifolio = () => {
                       <p>DEveloping the look and feel of physical products, aesthetics and functionality.</p>
               </div>
               <div className='img_box'>
-                <img src='img/image5.jpg' width={50} height={50} />
+                <img src='img/image5.jpg' width={100} height={450} />
+
+              </div>
+
+            </div>
+           </SwiperSlide>
+           <SwiperSlide>
+            <div className='slide_box'>
+              <div className='details'>
+                      <h3>Logo and Branding</h3>
+                      <p>DEveloping the look and feel of physical products, aesthetics and functionality.</p>
+              </div>
+              <div className='img_box'>
+                <img src='img/image3.jpg'width={100} height={450} />
+
+              </div>
+
+            </div>
+           </SwiperSlide>
+           <SwiperSlide>
+            <div className='slide_box'>
+              <div className='details'>
+                      <h3>App UI/UX Design</h3>
+                      <p>DEveloping the look and feel of physical products, aesthetics and functionality.</p>
+              </div>
+              <div className='img_box'>
+                <img src='img/image2.jpg'width={100} height={450} />
+
+              </div>
+
+            </div>
+           </SwiperSlide>
+           <SwiperSlide>
+            <div className='slide_box'>
+              <div className='details'>
+                      <h3>Packaging Design</h3>
+                      <p>DEveloping the look and feel of physical products, aesthetics and functionality.</p>
+              </div>
+              <div className='img_box'>
+                <img src='img/image1.jpg' width={100} height={450} />
 
               </div>
 
@@ -51,46 +90,7 @@ const portifolio = () => {
                       <p>DEveloping the look and feel of physical products, aesthetics and functionality.</p>
               </div>
               <div className='img_box'>
-                <img src='img/image4.jpg'width={50} height={50} />
-
-              </div>
-
-            </div>
-           </SwiperSlide>
-           <SwiperSlide>
-            <div className='slide_box'>
-              <div className='details'>
-                      <h3>product Design</h3>
-                      <p>DEveloping the look and feel of physical products, aesthetics and functionality.</p>
-              </div>
-              <div className='img_box'>
-                <img src='img/image3.jpg'width={50} height={50} />
-
-              </div>
-
-            </div>
-           </SwiperSlide>
-           <SwiperSlide>
-            <div className='slide_box'>
-              <div className='details'>
-                      <h3>product Design</h3>
-                      <p>DEveloping the look and feel of physical products, aesthetics and functionality.</p>
-              </div>
-              <div className='img_box'>
-                <img src='img/image2.jpg' width={50} height={50} />
-
-              </div>
-
-            </div>
-           </SwiperSlide>
-           <SwiperSlide>
-            <div className='slide_box'>
-              <div className='details'>
-                      <h3>product Design</h3>
-                      <p>DEveloping the look and feel of physical products, aesthetics and functionality.</p>
-              </div>
-              <div className='img_box'>
-                <img src='img/image1.jpg'width={50} height={50} />
+                <img src='img/image5.jpg'width={100} height={450} />
 
               </div>
 
