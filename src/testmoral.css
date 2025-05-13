@@ -1,0 +1,90 @@
+.testmoral
+{
+    padding: 30px ;
+    width: 100%;
+}
+.testmoral .working_srocess
+{
+    max-width: 100%;
+    margin-top: 20px;
+}
+.testmoral .working_srocess .container
+{
+display: flex;
+justify-content: space-between;
+}
+.testmoral .working_srocess .container .detalis
+{
+    margin-right: 5%;
+}
+.testmoral .working_srocess .container .detalis .title h2
+{
+  font-size: 70px;
+  font-family: syne;
+  line-height: 75px;
+  font-weight: 700;
+}
+.testmoral .working_srocess .container .detalis p
+{
+margin-top: 20px;
+font-size: 18px;
+line-height: 30px;
+color: black;
+font-weight: 500;
+}
+.testmoral .working_srocess .container .dropdown
+{
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.testmoral .working_srocess .container .dropdown .dropdown_container
+{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;    
+}
+.testmoral .working_srocess .container .dropdown .dropdown_container .box
+{
+    padding: 10px 10px;
+    border: 2px solid#000;
+    border-radius: 20px;
+    transition: 0.3s;
+    height: 70px;
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+.testmoral .working_srocess .container .dropdown .dropdown_container .box.active
+{
+    height: 180px;
+    background:#733a04;
+    box-shadow: 10px 30px 20px rgba(0, 0, 0, 0.2);
+}
+.testmoral .working_srocess .container .dropdown .dropdown_container .box h3
+{
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: syne;
+    display: flex;
+    justify-content: space-between
+}
+.testmoral .working_srocess .container .dropdown .dropdown_container .box.box.active h3 span svg
+{
+transform: rotate(180deg);
+transition: 0.3s;
+}
+.testmoral .working_srocess .container .dropdown .dropdown_container .box p
+{
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+    line-height: 30px;
+    font-weight: 400;
+    opacity: 0;
+    transition: 0.3s;
+}
+.testmoral .working_srocess .container .dropdown .dropdown_container .box.active p
+{
+    opacity: %;
+}
