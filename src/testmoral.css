@@ -1,12 +1,16 @@
 .testmoral
 {
-    padding: 30px ;
+   padding: 10px  ;
     width: 100%;
 }
 .testmoral .working_srocess
 {
     max-width: 100%;
     margin-top: 20px;
+    margin-bottom: 30px;
+   
+    border-bottom: 2px solid #000000;
+
 }
 .testmoral .working_srocess .container
 {
@@ -57,10 +61,10 @@ font-weight: 500;
 .testmoral .working_srocess .container .dropdown .dropdown_container .box.active
 {
     height: 180px;
-    background:#733a04;
+    background:#5b5b5b;
     box-shadow: 10px 30px 20px rgba(0, 0, 0, 0.2);
 }
-.testmoral .working_srocess .container .dropdown .dropdown_container .box h3
+.testmoral .working_srocess .container .dropdown .dropdown_container .box h1
 {
     line-height: 42px;
     font-size: 30px;
@@ -69,22 +73,110 @@ font-weight: 500;
     display: flex;
     justify-content: space-between
 }
-.testmoral .working_srocess .container .dropdown .dropdown_container .box.box.active h3 span svg
+.testmoral .working_srocess .container .dropdown .dropdown_container .box.active h1 span svg
 {
 transform: rotate(180deg);
 transition: 0.3s;
 }
 .testmoral .working_srocess .container .dropdown .dropdown_container .box p
 {
-    margin-top: 10px;
-    font-size: 18px;
-    color: black;
-    line-height: 30px;
-    font-weight: 400;
-    opacity: 0;
-    transition: 0.3s;
+      margin-top: 10px;
+      font-size: 18px;
+      color: rgb(0, 0, 0);
+      line-height: 30px;
+      font-weight: 400;
+      opacity: 0; 
+      transition: 0.3s;
 }
 .testmoral .working_srocess .container .dropdown .dropdown_container .box.active p
 {
-    opacity: %;
+    opacity: 1;
+}
+.testmoral .review
+{
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 80px 60px;
+    border-bottom: 1px solid #fff;
+}
+.testmoral .review .container
+{
+    width: 100%;
+}
+.testmoral .review .container .title
+{
+    padding: 20px 30px;
+}
+.testmoral .review .container .title h2
+{
+  text-align: center;
+  justify-content: center;
+  font-family: syne;
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 700;
+}
+.testmoral .review .container .review_box
+{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.testmoral .review .container .review_box .box
+{
+    width: 530px;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px 20px;
+    transition: 0.3s;
+}
+.testmoral .review .container .review_box .box:hover
+{
+    box-shadow: 4px 2px 0px #000;
+
+}
+.testmoral .review .container .review_box .box .star_icon
+{
+    font-size: 20px;
+
+}
+.testmoral .review .container .review_box .box .detalis
+{
+    margin-top: 20px;
+}
+.testmoral .review .container .review_box .box .detalis h3
+{
+    font-family: syne;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    color: #000;
+}
+.testmoral .review .container .review_box .box .detalis p
+{
+    margin-top: 15px;
+    color: #000;
+    line-height:30px ;
+}
+.testmoral .review .container .review_box .box .user_detalis
+{
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+}
+.testmoral .review .container .review_box .box .user_detalis .user_img img
+{
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+.testmoral .review .container .review_box .box .user_detalis .user_name h4
+{
+    font-size: 21px;
+    line-height: 30px;
+    margin-top: 10px;
 }

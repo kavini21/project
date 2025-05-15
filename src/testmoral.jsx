@@ -2,6 +2,10 @@ import React from "react";
 import { IoIosArrowDropdown } from "react-icons/io";
 import './testmoral.css'
 import { useState } from "react";
+import { FaStar } from "react-icons/fa";
+import { motion } from "framer-motion";
+import { FadeIn } from "./animation_variation";
+
 const Testmoral = () =>{
 
     const [dropdown1, setDropdown1] = useState(false)
@@ -47,7 +51,131 @@ const Testmoral = () =>{
                  </div>
                </div>
             </div>
+           <div className="review">
+            <div className="container">
+                <div className="title">
+                     <h2>Clients are always satisfied with us</h2>
+                </div>
+                <div className="review_box">
+                    <motion.div
+                    variants={FadeIn("up", 0.2)}
+                     initial="hidden"
+                     whileInView={"show"}
+                    viewport={{ once: false, amount: 0.3 }}
 
+                    className="box">
+                        <div className="star_icon">
+                                <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+
+                        </div>
+                        <div className="detalis">
+                            <h3>Super customer service!</h3>
+                            <p>Excelient customer service and I was really impressed and happy with my purchase especially as it was a last miovte order which got to me in time, amd it arrived I was very happy with the design and so was the reciplent.</p>
+
+                        </div>
+                        <div className="user_details">
+                            <div className="user_img">
+                                <img src="img/pppp.jpg" width={50} height={60}  />
+
+                            </div>
+                            <div className="user_name">
+                                <h4>Willima Jack</h4>
+
+                            </div>
+
+
+                        </motion.div>
+                    </div>
+                     <motion.div
+                    variants={FadeIn("up", 0.2)}
+                     initial="hidden"
+                     whileInView={"show"}
+                    viewport={{ once: false, amount: 0.3 }}
+                     className="box">
+                        <div className="star_icon">
+                                <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+
+                        </div>
+                        <div className="detalis">
+                            <h3>Super customer service!</h3>
+                            <p>Excelient customer service and I was really impressed and happy with my purchase especially as it was a last miovte order which got to me in time, amd it arrived I was very happy with the design and so was the reciplent.</p>
+
+                        </div>
+                        <div className="user_details">
+                            <div className="user_img">
+                                <img src=""  />
+
+                            </div>
+                            <div className="user_name">
+                                <h4>Willima Jack</h4>
+
+                            </div>
+
+
+                        </div>
+                    </motion.div>
+                     <motion.div
+                    variants={FadeIn("up", 0.2)}
+                     initial="hidden"
+                     whileInView={"show"}
+                    viewport={{ once: false, amount: 0.3 }}
+                     className="box">
+                        <div className="star_icon">
+                                <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+
+                        </div>
+                        <div className="detalis">
+                            <h3>Super customer service!</h3>
+                            <p>Excelient customer service and I was really impressed and happy with my purchase especially as it was a last miovte order which got to me in time, amd it arrived I was very happy with the design and so was the reciplent.</p>
+
+                        </div>
+                        <div className="user_details">
+                            <div className="user_img">
+                                <img src=""  />
+
+                            </div>
+                            <div className="user_name">
+                                <h4>Willima Jack</h4>
+
+                            </div>
+
+
+                        </div>
+                    </motion.div>
+                     <motion.div
+                    variants={FadeIn("up", 0.2)}
+                     initial="hidden"
+                     whileInView={"show"}
+                    viewport={{ once: false, amount: 0.3 }}
+                     className="box">
+                        <div className="star_icon">
+                                <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+
+                        </div>
+                        <div className="detalis">
+                            <h3>Super customer service!</h3>
+                            <p>Excelient customer service and I was really impressed and happy with my purchase especially as it was a last miovte order which got to me in time, amd it arrived I was very happy with the design and so was the reciplent.</p>
+
+                        </div>
+                        <div className="user_details">
+                            <div className="user_img">
+                                <img src=""  />
+
+                            </div>
+                            <div className="user_name">
+                                <h4>Willima Jack</h4>
+
+                            </div>
+
+
+                        </div>
+                    </motion.div>
+
+                </div>
+
+            </div>
+
+           </div>
         </div>
      </>
     )
