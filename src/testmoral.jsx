@@ -5,7 +5,7 @@ import { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { FadeIn } from "./animation_variation";
-
+import { FaXTwitter,FaFacebookF,FaLinkedinIn,FaInstagram } from "react-icons/fa6";
 const Testmoral = () =>{
 
     const [dropdown1, setDropdown1] = useState(false)
@@ -174,6 +174,41 @@ const Testmoral = () =>{
                 </div>
 
             </div>
+
+           </div>
+           <div className="team">
+            <div className="container">
+                <div className="title">
+                    <h2>We have a team of creative people</h2>
+
+                </div>
+                <div className="team_container">
+                    <div className="box">
+                        <div className="img_box">
+                            <img src="img/p.png"  />
+                            <div className="icons">
+                                <div className="icon">
+                                     <FaXTwitter />
+                                </div>
+                                <div className="icon">
+                                     <FaFacebookF />
+                                </div>
+                                <div className="icon">
+                                     <FaLinkedinIn />
+                                </div>
+                                <div className="icon">
+                                     <FaInstagram />
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+                </div> 
 
            </div>
         </div>
