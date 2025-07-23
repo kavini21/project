@@ -18,7 +18,7 @@ const portifolio = () => {
                 </div>
                  <div className='img_slider'>
                  <Swiper
-        slidesPerView={2}
+        slidesPerView={4}
         centeredSlides={false}
         slidesPerGroupSkip={1}
         grabCursor={false}

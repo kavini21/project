@@ -30,9 +30,9 @@ const Home =() =>{
                 viewport={{once: false, amount: 0.7}}
                  className='user'>
                     <div className='userimg_box'>
-                        <img src='img/p.png' width={50}/>
-                        <img src='img/pppp.jpg'width={50} height={51} />
-                        <img src='img/pp.jpg' width={50} />
+                        <img src='img/ph2.jpg' width={50} height={51}/>
+                        <img src='img/p.png'width={50} height={51} />
+                        <img src='img/pt11.jpg' width={50} height={50} />
                         
 
                     </div>
@@ -58,7 +58,7 @@ const Home =() =>{
                 viewport={{once: false, amount: 0.7}}
             
                 className='img_box'>
-                <img src="img/p6.jpg" />
+                <img src="img/pheder.jpg" />
 
                 </motion.div>
 

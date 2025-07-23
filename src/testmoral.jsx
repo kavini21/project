@@ -22,8 +22,8 @@ const Testmoral = () =>{
                     <div className="title">
                         <h2>Our high-Quality workig processes</h2>
                     </div>
-                    <p>we focus at every stage on effective communication and between the client</p>
-                    <p>It is important to note that are simplified steps, and the actual work process many</p>
+                    <p>we focus at every stage on effective communication and between the client and ensureing that the final desine meets the client s objectives and expectations.</p>
+                    <p>It is important to note that are simplified steps, and the actual work process many vary depending on the complexity of the project.</p>
 
                 </div>
                  <div className="dropdown">
@@ -82,10 +82,10 @@ const Testmoral = () =>{
                                 <h4>Willima Jack</h4>
 
                             </div>
+                         </div>
 
-
-                        </motion.div>
-                    </div>
+                    </motion.div>
+                  
                      <motion.div
                     variants={FadeIn("up", 0.2)}
                      initial="hidden"
@@ -103,7 +103,7 @@ const Testmoral = () =>{
                         </div>
                         <div className="user_details">
                             <div className="user_img">
-                                <img src=""  />
+                                <img src="img/p7.jpg" width={50} height={60}  />
 
                             </div>
                             <div className="user_name">
@@ -131,7 +131,7 @@ const Testmoral = () =>{
                         </div>
                         <div className="user_details">
                             <div className="user_img">
-                                <img src=""  />
+                                <img src="img/p5.jpg"  width={50} height={60}  />
 
                             </div>
                             <div className="user_name">
@@ -159,7 +159,7 @@ const Testmoral = () =>{
                         </div>
                         <div className="user_details">
                             <div className="user_img">
-                                <img src=""  />
+                                <img src="img/p3.jpg"  width={50} height={60}  />
 
                             </div>
                             <div className="user_name">
@@ -185,7 +185,7 @@ const Testmoral = () =>{
                 <div className="team_container">
                     <div className="box">
                         <div className="img_box">
-                            <img src="img/p.png"  />
+                            <img src="img/pt2.jpg" width={50} height={250} />
                             <div className="icons">
                                 <div className="icon">
                                      <FaXTwitter />
@@ -203,6 +203,93 @@ const Testmoral = () =>{
                             </div>
 
 
+                        </div>
+
+                        
+                        <div className="details">
+                                 <h1>Andrew Mark</h1>
+                                 <p>Creative Director</p>
+                        </div>
+
+                    </div>
+                     <div className="box">
+                        <div className="img_box">
+                            <img src="img/p4.jpg" width={50} height={250}  />
+                            <div className="icons">
+                                <div className="icon">
+                                     <FaXTwitter />
+                                </div>
+                                <div className="icon">
+                                     <FaFacebookF />
+                                </div>
+                                <div className="icon">
+                                     <FaLinkedinIn />
+                                </div>
+                                <div className="icon">
+                                     <FaInstagram />
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div className="details">
+                                 <h1>Jack Taylor</h1>
+                                 <p>Senier Designer</p>
+                        </div>
+
+                    </div>
+                     <div className="box">
+                        <div className="img_box">
+                            <img src="img/p5.jpg" width={50} height={250} />
+                            <div className="icons">
+                                <div className="icon">
+                                     <FaXTwitter />
+                                </div>
+                                <div className="icon">
+                                     <FaFacebookF />
+                                </div>
+                                <div className="icon">
+                                     <FaLinkedinIn />
+                                </div>
+                                <div className="icon">
+                                     <FaInstagram />
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div className="details">
+                                 <h1>Martine Joy</h1>
+                                 <p>Project Manager</p>
+                        </div>
+
+                    </div>
+                     <div className="box">
+                        <div className="img_box">
+                            <img src="img/p6.jpg" width={50} height={250} />
+                            <div className="icons">
+                                <div className="icon">
+                                     <FaXTwitter />
+                                </div>
+                                <div className="icon">
+                                     <FaFacebookF />
+                                </div>
+                                <div className="icon">
+                                     <FaLinkedinIn />
+                                </div>
+                                <div className="icon">
+                                     <FaInstagram />
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div className="details">
+                                 <h1>Adam Straw</h1>
+                                 <p>Web Developer</p>
                         </div>
 
                     </div>

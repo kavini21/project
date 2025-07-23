@@ -14,23 +14,23 @@
 }
 .portifolio
 {
- padding: 50px 10px;
- background: #733a04;
+ padding: 10px 10px;
+ 
 }
 .portifolio .container
 {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .portifolio .container .title
 {
-    padding: 60px 80px;
+    padding: 40px 80px;
     text-align: center;
 }
 .portifolio .container .title h2
 {
 font-size: 70px;
 line-height: 75px;
-color: aliceblue;
+color: rgb(114, 128, 141);
 font-family: syne;
 }
 .portifolio .container .img_slider
@@ -39,8 +39,8 @@ font-family: syne;
 }
 .portifolio .container .img_slider .slide_box
 {
-height: 450px;
-width: 600px;
+height: 420px;
+width: 400px;
 border-radius: 16px;
 border: 3px solid #fff;
 overflow: hidden;
@@ -61,29 +61,26 @@ overflow: hidden;
     z-index: 1;
     height: 450px;
     width: 600px;
-    background: rgba(0, 0, 0, 0.45);
+    
     border-radius: 16px;
     position: 20px 30px;
     transition: 0.3s;
 }
-.portifolio .container .img_slider .slide_box .details
-{
-    backdrop-filter: blur(2px);
-}
+
 .portifolio .container .img_slider .slide_box .details h3
 {
     margin-top: 50%;
     font-size: 30px;
     line-height: 30px;
     font-family: syne;
-    color: rgb(255, 255, 255);
+    color:  #303131;
     font-weight: 600;
 }
 .portifolio .container .img_slider .slide_box .details p
 {
     margin-top: 40px;
-    margin-right: 10%;
-    color: aliceblue;
+    margin-right: 30%;
+    color: rgb(74, 72, 72);
     font-size: 18px;
     line-height: 20px;
     font-weight: 600;

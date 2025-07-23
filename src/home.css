@@ -20,6 +20,7 @@
 .home .container .details .info h2
 {
     font-size: 82px;
+    color: rgb(66, 66, 66);
     font-family: syne;
 }
 .home .container .details .info p
@@ -27,6 +28,7 @@
     margin-top: 20px;
     font-size: 21px;
     line-height: 30px;
+    color: rgb(50, 50, 50);
 }
 .home .container .details .user 
 {
@@ -36,19 +38,22 @@
 }
 .home .container .details .user .userimg_box img
 {
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
-  
+    padding: 10px;
 }
 .home .container .details .user p
 {
 margin-top: 5%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .home .container .details .button
 {
     margin-top: 20px;
     display:flex;
     align-items: center;
-    background: #107283;
+    background: #023441;
     color: #000;
     font-weight: 500;
     

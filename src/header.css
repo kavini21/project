@@ -9,7 +9,7 @@
     display:flex;
     padding: 30px 10px;
     width: 100%;
-    background: #733a04;
+    background: #047366;
     
     justify-content: space-between;
 }
@@ -46,7 +46,7 @@
 }
 .header .navbar .nawlink ul li a:hover
 {
-    color: #000000;
+    color: #333232;
 }
 .header .btn button
 {
